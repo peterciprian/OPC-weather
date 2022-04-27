@@ -1,0 +1,28 @@
+form {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: nowrap;
+    flex-direction: row;
+}
+
+hr {
+    margin-bottom: 40px;
+}
+
+table {
+    margin: auto;
+}
+
+th,
+td {
+    width: 120px;
+    display: inline-flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+tr:nth-child(odd) {
+    background-color: #DDD;
+}
